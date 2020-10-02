@@ -1,0 +1,178 @@
+I"�!<h3 id="physics-engine">Physics Engine</h3>
+
+<ul>
+  <li><a href="https://doc.babylonjs.com/how_to/using_the_physics_engine">Gravity docs</a></li>
+  <li><a href="https://www.babylonjs-playground.com/#A2WGF">Playing with gravity</a></li>
+</ul>
+
+<h3 id="up-next">Up Next</h3>
+
+<p>Car on a path</p>
+<ul>
+  <li><a href="https://doc.babylonjs.com/how_to/how_to_use_path3d">Intro to 3d path</a></li>
+  <li><a href="https://doc.babylonjs.com/snippets/car_path">Animate car on path</a></li>
+  <li><a href="https://www.babylonjs-playground.com/#1YD970#12">Another example</a></li>
+</ul>
+
+<p>Loading GLTF models:</p>
+<ul>
+  <li><a href="https://doc.babylonjs.com/extensions/the_babylon_viewer#display-3d-models-on-your-webpage">Documentation</a></li>
+  <li><a href="https://www.babylonjs-playground.com/#10D6YT#33">Helmet loading</a></li>
+  <li>To find GLTF models: Check out <a href="https://clara.io">clara.io</a>. Can download in Babylon JS form</li>
+</ul>
+
+<p>More fun physics</p>
+<ul>
+  <li>[Pretty balls and crates dropping(https://github.com/makersall/datachefs/blob/master/pages/babylonjs/physics/pretty-balls-dropping.html)</li>
+  <li><a href="https://playground.babylonjs.com/#5W5B6W#3">Wheel hitting balls</a></li>
+  <li><a href="https://playground.babylonjs.com/#PRHF00#6">Simpler</a></li>
+</ul>
+
+<p>Other cool stuff</p>
+<ul>
+  <li>Totally cool demo of <a href="https://playground.babylonjs.com/#3I55DK">new physics engine</a></li>
+  <li><a href="https://doc.babylonjs.com/how_to/using_babylon.js_for_beginners">Microsoft video tutorial</a></li>
+  <li><a href="https://www.babylonjs-playground.com/#7FJNSA#4">Woods and path</a></li>
+  <li><a href="https://www.babylonjs-playground.com/#8PY6X5#1">Animated bar chart</a></li>
+  <li><a href="https://www.babylonjs-playground.com/#6ZVKE3#0">Glowing pipe</a></li>
+  <li><a href="https://www.babylonjs-playground.com/#9RI8CG#0">Animated sprites</a></li>
+  <li><a href="https://www.babylonjs-playground.com/#2FPT1A#5]">Lotsa little physics dots</a></li>
+  <li><a href="https://www.babylonjs-playground.com/#A1210C#0">Basic shapes</a></li>
+  <li><a href="https://www.babylonjs-playground.com/#SVZL1I#0">Crazy swirls line</a></li>
+  <li><a href="https://playground.babylonjs.com/#L76FB1#49">Ball floating on water</a></li>
+  <li><a href="https://www.babylonjs-playground.com/#L76FB1#0">Ball sitting on water</a></li>
+  <li><a href="https://www.babylonjs-playground.com/#SDU431">Tiny space moving particles</a></li>
+  <li><a href="https://www.babylonjs-playground.com/#DXARSP#0">Colored balls on a lawn</a></li>
+</ul>
+
+<h3 id="creating-an-environment">Creating an environment</h3>
+
+<ul>
+  <li><a href="https://doc.babylonjs.com/babylon101/environment">Documentation</a></li>
+  <li><a href="https://doc.babylonjs.com/how_to/fast_build">Quickly building the environment: documentation</a></li>
+  <li><a href="https://www.babylonjs-playground.com/#MJNICE#1">Simple scene</a></li>
+  <li><a href="https://www.babylonjs-playground.com/#MJNICE#12">Another example</a></li>
+</ul>
+
+<p>Environment? Or something else?</p>
+<ul>
+  <li><a href="https://www.babylonjs-playground.com/#10D6YT#33">With helmet</a></li>
+  <li><a href="https://www.babylonjs-playground.com/#BH23ZD#1">Great picture</a></li>
+</ul>
+
+<h3 id="more-on-physics-engine">More on physics engine</h3>
+
+<ul>
+  <li><a href="https://doc.babylonjs.com/how_to/using_the_physics_engine#babylons-physics-impostor">Physics doc for these exs</a></li>
+  <li><a href="https://www.babylonjs-playground.com/#BXII">Ball drops then bounces a bit</a></li>
+  <li><a href="https://www.babylonjs-playground.com/#26LQEZ">Bouncing and moving ball</a></li>
+  <li><a href="https://www.babylonjs-playground.com/#2B84TV">Timer and ball moving</a></li>
+  <li><a href="https://www.babylonjs-playground.com/#2B84TV#1">Slowing down</a></li>
+  <li><a href="https://www.babylonjs-playground.com/#2B84TV#2">Speeding up</a></li>
+  <li><a href="Ball bouncing forward">https://playground.babylonjs.com/#PRHF00#4</a></li>
+  <li><a href="https://www.babylonjs-playground.com/#1NASOD">Color changes when ball hits</a></li>
+  <li><a href="https://www.babylonjs-playground.com/#RHBQY9#1">Apply force</a></li>
+  <li><a href="https://www.babylonjs-playground.com/#480ZBN#2">Soft body rigid thing</a></li>
+  <li><a href="https://www.babylonjs-playground.com/#480ZBN#6">Soft cloth</a></li>
+  <li><a href="https://www.babylonjs-playground.com/#8WC6ZN#3">Soft body goes limp</a></li>
+  <li><a href="https://doc.babylonjs.com/how_to/using_advanced_physics_features">Advanced physics doc</a></li>
+</ul>
+
+<p>Other stuff</p>
+<ul>
+  <li><a href="https://ajna4taiga.tk/PerplexusShadowOpen/Home.html">Creating Games</a></li>
+</ul>
+
+<h3 id="text">Text</h3>
+
+<ul>
+  <li>Note: Textbody GUI seems like way to go</li>
+  <li><a href="https://www.babylonjs-playground.com/#M50WUZ#4">Labels</a></li>
+  <li><a href="https://doc.babylonjs.com/how_to/gui#textblock">Documentation</a></li>
+  <li><a href="https://www.babylonjs-playground.com/#2ARI2W#10">Another example</a>. “Please note that to get crisp texts you have to ensure that your rendering resolution is aligned with the screen… This example you can see on line #3 that we force the engine to get the same DPI as the screen. Then on lines #10 and #11 we scale the GUI to align with the screen resolution.”</li>
+  <li><a href="http://www.html5gamedevs.com/topic/38512-2d-text-in-world-space/">Discussion of strategies</a></li>
+</ul>
+
+<h3 id="animation">Animation</h3>
+
+<p>Where animation esp useful: GLTF characters with built in animations— the fat that it’s only one value not as big a deal. But doing an animation where you want to change several things— like x and y— chews up a bunch of code since you need an animation for each</p>
+
+<ul>
+  <li><a href="https://www.babylonjs-playground.com/#CBGEQX%235">Moving two objects at the same time</a></li>
+</ul>
+
+<h3 id="cool-examples-tutorials">Cool Examples, Tutorials</h3>
+
+<ul>
+  <li><a href="https://github.com/Temechon/ms-experiences16">Simple Viking strategy game, from Microsoft Experience 16:</a></li>
+  <li><a href="https://www.smashingmagazine.com/2016/07/babylon-js-building-sponza-a-cross-platform-webgl-game/">BabylonJS team member turorial on Smashing Mag</a></li>
+</ul>
+
+<h3 id="color-tricks">Color Tricks</h3>
+
+<ul>
+  <li><a href="https://www.babylonjs-playground.com/#FZTGQE#8">Translate between colors, colors using hex values</a>. Try BABYLON.Color3.lerptoref</li>
+  <li><a href="https://doc.babylonjs.com/api/classes/babylon.color3#teal">Documentation</a></li>
+  <li>NOTE: use FromHexString(hex: string): Color3</li>
+  <li>Random(): Color3</li>
+  <li>Lerp(start: DeepImmutable<Color3>, end: DeepImmutable<Color3>, amount: number): Color3. Creates a new Color3 with values linearly interpolated of "amount" between the start Color3 and the end Color3</Color3></Color3></li>
+</ul>
+
+<h3 id="lots-more-examples-many-are-duplicates-of-above">Lots more examples! (Many are duplicates of above)</h3>
+
+<p>https://www.babylonjs-playground.com/#HI65FJ#0</p>
+
+<p>https://www.babylonjs-playground.com/#TAFSN0#2
+https://doc.babylonjs.com/how_to/webvr_helper</p>
+
+<p>https://www.babylonjs-playground.com/#7EESGZ#8</p>
+
+<p>https://www.babylonjs-playground.com/#14KRGG#3
+https://www.babylonjs-playground.com/#LR4YHT#0
+https://www.babylonjs-playground.com/#8PY6X5#1</p>
+
+<p>https://www.babylonjs-playground.com/#ZQWE4G#0</p>
+
+<p>https://www.babylonjs-playground.com/#6ZVKE3#0</p>
+
+<p>https://www.babylonjs-playground.com/#9RI8CG#0</p>
+
+<p>https://www.babylonjs-playground.com/#EF9X5R#0</p>
+
+<p>https://www.babylonjs-playground.com/#8MGKWK#0
+https://www.babylonjs-playground.com/#2FPT1A#5
+https://www.babylonjs-playground.com/#A1210C#0</p>
+
+<p>https://www.babylonjs-playground.com/#7149G4#0</p>
+
+<p>https://www.babylonjs-playground.com/#EEUVTY#0
+https://www.babylonjs-playground.com/#95PXRY#0</p>
+
+<p>https://www.babylonjs-playground.com/#SVZL1I#0</p>
+
+<p>https://www.babylonjs-playground.com/#8PY6X5#1</p>
+
+<p>https://playground.babylonjs.com/#L76FB1#49</p>
+
+<p>https://www.babylonjs-playground.com/#SDU431
+https://www.babylonjs-playground.com/#DXARSP#0</p>
+
+<p>https://www.babylonjs-playground.com/#ATDL99#0</p>
+
+<p>https://www.babylonjs-playground.com/#L76FB1#0</p>
+
+<p>https://www.babylonjs-playground.com/#8Y780Y#20</p>
+
+<p>https://www.babylonjs-playground.com/#QYFDDP#1</p>
+
+<p>https://www.babylonjs-playground.com/#LL5BIQ#0</p>
+
+<p>https://www.babylonjs-playground.com/#UKNERM#0</p>
+
+<p>https://www.babylonjs-playground.com/#U5SSCN#0</p>
+
+<p>https://www.babylonjs-playground.com/#VABI8A#0</p>
+
+<p>https://www.babylonjs-playground.com/#RNBKQ#8</p>
+
+:ET
