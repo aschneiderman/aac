@@ -1,4 +1,4 @@
-title: 'Postcards: Learn to Code with BabylonJS'
+title: 'Postcards'
 author: Anders Schneiderman
 email: your-email@domain.com
 description:  Description of this site
@@ -7,10 +7,10 @@ description:  Description of this site
 navigation_links:
   - name: About
     link: 'about/'
-#  - name: Strategy
-#    link: 'strategy/'
-  # - name: Links
-    # link: 'links'
+  - name: Lessons
+    link: 'lessons/'
+  - name: Resources
+    link: 'resources/'
   - name: Makers All
     link: 'https://makersall.org/'
 

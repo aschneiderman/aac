@@ -1,6 +1,6 @@
 ---
-layout: What BabylonJS Can Do
-title: Lessons
+layout: content
+title: What BabylonJS Can Do
 image: muffins-brown.jpg
 ---
 

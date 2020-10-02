@@ -1,7 +1,6 @@
 ---
 layout: content
 title: Notes on Terminology, 3D Graphics
-title: What BabylonJS Can Do
 image: cupcakes-animals.jpg
 ---
 
