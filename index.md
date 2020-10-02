@@ -14,3 +14,4 @@ Postcards is an Open source experiment to see if we can teach beginning  coding 
 Let's [Get Started](pages/babylonjs/lessons.html)!
 
 
+NOTE: this site isn't yet ready for public use -- right now it's just a place to experiment.
