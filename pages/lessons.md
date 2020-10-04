@@ -17,14 +17,14 @@ note: break these back into smaller units -- say somewhere, not clear how many p
 
 - explain goals, what you get to do & learn
 
-###  [Simple Text](../pages/lessons/100-text-hello/index.html)
+###  1) [Simple Text](../pages/lessons/100-text-hello/index.html)
 - Simple commands: simpleSetup, simpleScene, simpleTextBlock (briefly explain setup, scene)[fix text blocks so pivot from front end, not back]
 - Welcome to 3D: putting stuff on your postcard at X,y,z 3D location
 - Adding more text blocks
 - Intro to debugging & taking tiny steps, aka iteration 
 
 
-###  Paramters/Options and Documenatation
+###  2) Paramters/Options and Documenatation
 - Options aka parameters
   - 360 background pix
   - text options, reading simple documentation  (if your text gets cut off, play w height and length of text block)
