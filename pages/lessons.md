@@ -8,6 +8,8 @@ image: cupcakes-fancy-white-pink.jpg
 
 *NOTE: these aren't full-blown lessons, just beginning outlines and the code students would work with*
 
+note: break these back into smaller units -- say somewhere, not clear how many per class -- designed so you could move em around to suite your audience and your teaching style 
+
 ## How to Get Set up
 - For now: using Glitch 
 
@@ -15,19 +17,19 @@ image: cupcakes-fancy-white-pink.jpg
 
 - explain goals, what you get to do & learn
 
-### Lesson 1: [Simple Text](../pages/lessons/100-text-hello/index.html)
+###  [Simple Text](../pages/lessons/100-text-hello/index.html)
 - Simple commands: simpleSetup, simpleScene, simpleTextBlock (briefly explain setup, scene)[fix text blocks so pivot from front end, not back]
 - Welcome to 3D: putting stuff on your postcard at X,y,z 3D location
 - Adding more text blocks
 - Intro to debugging & taking tiny steps, aka iteration 
 
 
-### Lesson 2: Paramters/Options and Documenatation (short unit)
+###  Paramters/Options and Documenatation
 - Options aka parameters
   - 360 background pix
   - text options, reading simple documentation  (if your text gets cut off, play w height and length of text block)
 
-### Lesson 3: Tricking Out Your Postcards, V1
+##  Tricking Out Your Postcards A Bit
 
 Show some of the list of slick Simplecommands!  Maybe 2 exs that use a few commands -- eg, sky with animated airplane & text, (decide rest later -- might wanna save a few effects for loops, if then, etc units)
 — Downloaded 3d images, Downloaded 3d animated objects
@@ -41,11 +43,19 @@ Show some of the list of slick Simplecommands!  Maybe 2 exs that use a few comma
 
 *Q: show how to download backgrounds, images,etc?  Or have instructions and leave as part of homework extra credit?  Or put in next Lessons? Leaning toward putting it in as extra credit, then have students who did it show how  in last unit of next set of Lessons*
 
-## Working with Basic Math, Basic String manipulation, Variables, If Then
+## Working with Basic Math
+
+## Basic String manipulation
+
+## Variables
+
+## If Then
 - [what to cover?  What are fun examples?]
 
 
-## Loops, Functions & reusing code
+## Loops
+
+## Functions & reusing code
 - Teach this early, since reusability & breaking code into chunks are key to writing good code
 - Why & how to use comments 
 - How to write code you can read 6 months from now 
