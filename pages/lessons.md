@@ -22,7 +22,7 @@ image: cupcakes-fancy-white-pink.jpg
 - Intro to debugging & taking tiny steps, aka iteration 
 
 
-### Lesson 2: background image (short unit)
+### Lesson 2: Paramters/Options and Documenatation (short unit)
 - Options aka parameters
   - 360 background pix
   - text options, reading simple documentation  (if your text gets cut off, play w height and length of text block)
