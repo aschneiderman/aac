@@ -17,9 +17,11 @@ BJS Postcards is an Open source experiment to see if we can teach beginning  cod
 Let's [Get Started](./lessons/)!
 
 #### More About BJS Postcards
-- [Overview](./about/)
-- Brief desciption of ideas behind the project -- eg:
+- [About](./about/) page
+- { Brief desciption of ideas behind the project:
   - learn by exploring (vsas much syntax as quickly as possible)
   - Reduce cofnitive load by hiding complexity of BabylonJS -- but structure it so students know this is simplified
-  - Design so more like a playlist -- try to make it easier for teachers to customize for their unique situation w/o havingto reinvent everyhting from scratch
-  - Dsign for Student audience: high school, young adults, adults, organization's staff
+  - Design so more like a playlist -- try to make it easier for teachers to customize for their unique situation w/o hav(ingto reinvent everyhting from scratch
+  - Eventually, design so could generate versions to be taught online -- eg, make it easy to build in GitHub and push new/updated lessons to [Glitch](https://glitch.com) -- or offline if little Net access
+  - Design for Student audience: high school, young adults, adults, organization's staff
+  - Possible followup project: creative data viz  }
