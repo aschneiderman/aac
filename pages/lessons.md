@@ -41,20 +41,23 @@ Show some of the list of slick Simplecommands!  Maybe 2 exs that use a few comma
 
 *Q: show how to download backgrounds, images,etc?  Or have instructions and leave as part of homework extra credit?  Or put in next Lessons? Leaning toward putting it in as extra credit, then have students who did it show how  in last unit of next set of Lessons*
 
-## Working with Math, String manipulation, and Variables
+## Working with Basic Math, Basic String manipulation, Variables, If Then
 - [what to cover?  What are fun examples?]
 
-## Logic: if, loops
-- [what to cover?]
 
-## Functions & reusing code
+## Loops, Functions & reusing code
 - Teach this early, since reusability & breaking code into chunks are key to writing good code
 - Why & how to use comments 
 - How to write code you can read 6 months from now 
 
 ## Interaction (or do later?)
 
-## Arrays
+## Arrays (and simething else)
+
+## Any javascriot concepts you need to understand to do fabcier stuff in BJS.
+
+## Onject Oriented?  Functional Programming?
+- Read up on what's recommended for modern JS
 
 &nbsp;
 
