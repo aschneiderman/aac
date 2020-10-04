@@ -29,7 +29,9 @@ note: break these back into smaller units -- say somewhere, not clear how many p
   - 360 background pix
   - text options, reading simple documentation  (if your text gets cut off, play w height and length of text block)
 
-##  Tricking Out Your Postcards A Bit
+##  Tricking Out Your Postcards By Reading Documentation and Experimenting
+
+*Why not start teaching about numbers,string, varaibales?  1] Give folks who aren't already comfortable w this a chance to catch up, better undeersdand what theyve learned so far, and reinforce that coding is fun & a bit like magic; 2) Start tapping into power of obsessing (will lesrn moreif play a bunch on their own because its fun); teach early on importanceof being able to read documentstion & iteratively experiment*
 
 Show some of the list of slick Simplecommands!  Maybe 2 exs that use a few commands -- eg, sky with animated airplane & text, (decide rest later -- might wanna save a few effects for loops, if then, etc units)
 — Downloaded 3d images, Downloaded 3d animated objects
@@ -42,6 +44,7 @@ Show some of the list of slick Simplecommands!  Maybe 2 exs that use a few comma
 - Homework: make postcards
 
 *Q: show how to download backgrounds, images,etc?  Or have instructions and leave as part of homework extra credit?  Or put in next Lessons? Leaning toward putting it in as extra credit, then have students who did it show how  in last unit of next set of Lessons*
+
 
 ## Working with Basic Math
 
