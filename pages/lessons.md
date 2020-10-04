@@ -15,29 +15,33 @@ image: cupcakes-fancy-white-pink.jpg
 
 - explain goals, what you get to do & learn
 
-### Unit 1: [Simple Text](../pages/lessons/100-text-hello/index.html)
+### Lesson 1: [Simple Text](../pages/lessons/100-text-hello/index.html)
 - Simple commands: simpleSetup, simpleScene, simpleTextBlock (briefly explain setup, scene)[fix text blocks so pivot from front end, not back]
 - Welcome to 3D: putting stuff on your postcard at X,y,z 3D location
 - Adding more text blocks
+- Intro to debugging & taking tiny steps, aka iteration 
 
-### Unit 2: Sky/background image (short unit)
+
+### Lesson 2: background image (short unit)
 - Options aka parameters
-  - background color, background pix (or sky)
+  - 360 background pix
   - text options, reading simple documentation  (if your text gets cut off, play w height and length of text block)
-- Debugging & taking tiny steps, aka iteration 
 
-### Unit 3: Tricking Out Your Postcards, V1
-- Show some of the list of slick commands — Downloaded 3d images, Downloaded 3d animated objects
+### Lesson 3: Tricking Out Your Postcards, V1
+
+Show some of the list of slick Simplecommands!  Maybe 2 exs that use a few commands -- eg, sky with animated airplane & text, (decide rest later -- might wanna save a few effects for loops, if then, etc units)
+— Downloaded 3d images, Downloaded 3d animated objects
   - Reading a directory — for finding what 3d images, background photos, etc you have
+- Changing the background color, adding a sky(?)
 - Other fun commands: particles?  What else?  One or two 
 - Explain simple version control: make mult copies so you can make mult postcards, try & rethink, etc
 - Let people go to town! Maybe in pairs? Then show off a few results?
-- Quick brainstorm: you’ll learn to add commands later. What might you want to create?  (encouraging to think of themselves not just as makers but as tool makers)
+- Possible Quick conversation:  you’ll learn to add commands, what we call (functions/procedures?) later. What might you want to create?  (encouraging to think of themselves not just as makers but as tool makers)
 - Homework: make postcards
 
 *Q: show how to download backgrounds, images,etc?  Or have instructions and leave as part of homework extra credit?  Or put in next Lessons? Leaning toward putting it in as extra credit, then have students who did it show how  in last unit of next set of Lessons*
 
-## Working with Math, Strings, and Variables
+## Working with Math, String manipulation, and Variables
 - [what to cover?  What are fun examples?]
 
 ## Logic: if, loops
@@ -47,6 +51,8 @@ image: cupcakes-fancy-white-pink.jpg
 - Teach this early, since reusability & breaking code into chunks are key to writing good code
 - Why & how to use comments 
 - How to write code you can read 6 months from now 
+
+## Interaction (or do later?)
 
 ## Arrays
 
