@@ -16,6 +16,11 @@ BJS Postcards is an Open source experiment to see if we can teach beginning  cod
 
 Let's [Get Started](./lessons/)!
 
+&nbsp;
+
+&nbsp;
+
+
 #### More About BJS Postcards
 - [About](./about/) page
 - { Brief desciption of ideas behind the project:
