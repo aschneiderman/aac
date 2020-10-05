@@ -1,12 +1,20 @@
+// simple-babylonjs: functions designed to make it easier for beginners to learn to code in BabylonJS
+// by hiding some of BabylonJS' complexity
 
-function strawberry(text, scene) {
+function simpleSetUp () {
+    var canvas = document.getElementById("renderCanvas"); // Get the canvas element 
+    var engine = new BABYLON.Engine(canvas, true); // Generate the BABYLON 3D engine
 
-    console.log( 'Starting simple text block: ' +  text);
+    // Cheat: for now, return the engine
+    // Clean this up so I'm returning an object that contains the engine,
+    // then fix the next two functions below
+    return engine;
 };
 
 
-function simpleEnvironment () {
+function simpleScene (engine) {
     // Set up a basic scene, including a camera and lighting
+    
     var scene = new BABYLON.Scene(engine);
     scene.createDefaultCameraOrLight(true, true, true);
     scene.cameras[0].radius = 60;                   // Move the camera back so it's easier to see everything in the scene
@@ -14,10 +22,18 @@ function simpleEnvironment () {
     return scene;
 };
 
-function simpleRunScene(scene, engine) {
+
+function simpleStart (scene, engine) {
+    // "Render" the scene so we can see it
     engine.runRenderLoop( function(){ scene.render(); } );
-    window.addEventListener('resize', function(){ engine.resize(); } );     // If the user resizes the browser, update the screen
+
+    // Set it up so that if the user resizes the browser, BabylonJS will update the screen
+    window.addEventListener('resize', function(){ engine.resize(); } );
 };
+
+
+
+
 
 function simpleSphere (name, x, y, z, options, scene) {
 // simpleSphere: helper function to hide the details of creating a sphere and the material that covers it
@@ -61,6 +77,7 @@ function simpleTextBlock(text, options, scene) {
 };
 
 
+// NOTE: check to make sure that this is still needed and that there isn't an easier way to do this
 function simpleAnimation (name, methodToAnimate, numberFrames, timeline)  {
     var animation = new BABYLON.Animation(name, methodToAnimate, numberFrames, BABYLON.Animation.ANIMATIONTYPE_FLOAT, BABYLON.Animation.ANIMATIONLOOPMODE_CONSTANT);
     var keys = [];
