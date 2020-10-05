@@ -1,13 +1,16 @@
 var setUp = simpleSetUp();
 
-var createScene = function (setUp) {
+createScene = function (setUp) {
     var scene = simpleScene(setUp);
+
+
+    // Put your code here to make your postcard
+
+    simpleTextBlock('Hi There!', {color: "black"}, scene);
+
     
-    simpleTextBlock('Hi There, Anders!', {x: -10, y: 9, z: 0, fontSize: "120px"}, scene);
-
     return scene;
-
 };
 
-var myScene = createScene(setUp);
-simpleStart(myScene, setUp);
+var myPostcard = createScene(setUp);
+simpleStart(setUp, myPostcard);

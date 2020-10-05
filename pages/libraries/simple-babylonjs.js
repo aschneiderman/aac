@@ -1,7 +1,13 @@
 // simple-babylonjs: functions designed to make it easier for beginners to learn to code in BabylonJS
 // by hiding some of BabylonJS' complexity
 
+
+// ---- Basic functions to get a postcard up and running ------------------
+
 function simpleSetUp () {
+    // simpleSetUp: Hides away details that beginning users don't need to see
+    // Also allows teachers/schools a simple hook for globally customizing postcards
+    
     var canvas = document.getElementById("renderCanvas"); // Get the canvas element 
     var engine = new BABYLON.Engine(canvas, true); // Generate the BABYLON 3D engine
 
@@ -23,12 +29,52 @@ function simpleScene (engine) {
 };
 
 
-function simpleStart (scene, engine) {
+function simpleStart (engine, scene) {
     // "Render" the scene so we can see it
     engine.runRenderLoop( function(){ scene.render(); } );
 
     // Set it up so that if the user resizes the browser, BabylonJS will update the screen
     window.addEventListener('resize', function(){ engine.resize(); } );
+};
+
+
+// ---- Basic features to add stuff to your postcard ------------------
+
+
+function simpleColor ()  {
+    return "black";
+};
+
+/**  simpleTextBlock: create a simple text label
+*/
+function simpleTextBlock(text, options, scene) {
+
+    var x = (options.x === undefined) ?   0     : options.x;
+    var y = (options.y === undefined) ?   0     : options.y;
+    var z = (options.z === undefined) ?   0     : options.z;
+
+// console.log(x);
+
+// Create the ground/plane and give it a dynamic texture, to which the TextBlock will be attached 
+    var ground =  BABYLON.MeshBuilder.CreateGround("ground", {height: 26, width: 26, subdivisions: 2}, scene);     
+    ground.position = new BABYLON.Vector3(x, options.y, options.z);
+    var rotation = (options.rotation === undefined) ? {x: 4.6, y: 0, z: 0}  : options.rotation;
+    ground.rotation = new BABYLON.Vector3(rotation.x, rotation.y, rotation.z);
+    var advancedTexture = BABYLON.GUI.AdvancedDynamicTexture.CreateForMesh(ground, 1024, 1024);    
+
+    // Create the TextBlock and attach it 
+    var guiText = new BABYLON.GUI.TextBlock("label" + text);
+    guiText.text = text;
+    guiText.color =     (options.color === undefined) ?     "black"     : options.color;
+    guiText.fontSize =  (options.fontSize === undefined) ?  "120px"     : options.fontSize;
+    guiText.width =     (options.width === undefined) ?     "950px"     : options.width;
+    guiText.height =    (options.height === undefined) ?    "350px"     : options.height;
+    // Other options I might add:
+    // guiText.textWrapping= true;
+    // guiText.lineSpacing = percentage;
+    advancedTexture.addControl(guiText);
+
+    return guiText;
 };
 
 
@@ -47,34 +93,6 @@ function simpleSphere (name, x, y, z, options, scene) {
     return ball;
 };
 
-
-
-/**  simpleTextBlock: create a simple text label
-Required:  text; the options for x, y, z; the scene
-NOTE: I called it simpleTextBlock instead of, for ex, simpleLabel, as a little foreshadowing:
-that way, if they see examples on the BabylonJS playground that use TextBlock, they'll have some clue as to what's going on 
-*/
-function simpleTextBlock(text, options, scene) {
-
-    // Create the ground/plane and give it a dynamic texture, to which the TextBlock will be attached 
-    var ground =  BABYLON.MeshBuilder.CreateGround("ground", {height: 26, width: 26, subdivisions: 2}, scene);     
-    ground.position = new BABYLON.Vector3(options.x, options.y, options.z);
-    var rotation = (options.rotation === undefined) ? {x: 4.6, y: 0, z: 0}  : options.rotation;
-    ground.rotation = new BABYLON.Vector3(rotation.x, rotation.y, rotation.z);
-    var advancedTexture = BABYLON.GUI.AdvancedDynamicTexture.CreateForMesh(ground, 1024, 1024);    
-
-    var guiText = new BABYLON.GUI.TextBlock("label" + text);
-    guiText.text = text;
-    guiText.color =     (options.color === undefined) ?     "black"     : options.color;
-    guiText.fontSize =  (options.fontSize === undefined) ?  "72px"      : options.fontSize;
-    guiText.width =     (options.width === undefined) ?     "950px"     : options.width;
-    guiText.height =    (options.height === undefined) ?    "350px"     : options.height;
-    // guiText.textWrapping= true;
-    // guiText.lineSpacing = percentage;
-    advancedTexture.addControl(guiText);
-
-    return guiText;
-};
 
 
 // NOTE: check to make sure that this is still needed and that there isn't an easier way to do this

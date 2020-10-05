@@ -80,6 +80,10 @@ Show some of the list of slick Simplecommands!  Maybe 2 exs that use a few comma
 
 <hr/>
 
+## Principles and Assumptions Behind Postcards
+- I called it simpleTextBlock instead of, for ex, simpleLabel, as a little foreshadowing: that way, if they see examples on the BabylonJS playground that use TextBlock, they'll have some clue as to what's going on 
+
+
 #### Sample Code, Note Dumps, Etc. I Might Use in Lessons
 
 - [Goals](../pages/lessons/goals/index.html)
