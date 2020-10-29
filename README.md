@@ -1,6 +1,6 @@
-# BJS Postcards
+# Playful Coding
 
-Playful Coding is a proof of concept source experiment to show how we could teach beginning programming where 
+Playful Coding is a proof of concept source experiment to show how we could teach beginning programming so that:
 
 - We take advantage of the fun, cool stuff tech can do today
 - The course and its libraries are open source, so teachers can remix it to fit their students and their teachng style
