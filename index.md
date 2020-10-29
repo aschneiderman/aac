@@ -1,7 +1,7 @@
 ---
 layout: content
-title: 'Postcards: Learn to Code with BabylonJS'
-image: 'cupcakes-reflection.jpg'
+title: 'Learn to Code with BabylonJS'
+image: 'hand-paid-cans-36464-pxh2.jpg'
 ---
 
 
@@ -10,9 +10,9 @@ image: 'cupcakes-reflection.jpg'
 These days, computers and phones can do a lot of cool stuff, but a lot of intro to coding classes still look like it's 1970.
 
 There are some sites, like code.org, that take full advantage of the cool things you can do today. But unfortunately, these courses are designed
-so that only a handful of developers can modify them.
+so that only a handful of developers can modify them. If you are a teacher and you want to come up with your own version that better fits your students and your teaching style, you're out of luck.
 
-BJS Postcards is an Open source experiment to see if we can teach beginning  coding by creating digital "postcards" using some of the cool things you can do with [BabylonJS](https://www.babylonjs.com/). 
+Learn to Code with BabylonJS  is a Proof of Concept to show what it might look like to teach beginning coding    by using some of the cool things you can do with the open source [BabylonJS](https://www.babylonjs.com/) library. 
 
 Let's [Get Started](./lessons/)!
 
@@ -21,7 +21,7 @@ Let's [Get Started](./lessons/)!
 &nbsp;
 
 
-#### More About BJS Postcards
+#### More About This Project
 - [About](./about/) page
 - { Brief desciption of ideas behind the project:
   - learn by exploring (vsas much syntax as quickly as possible)

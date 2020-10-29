@@ -2,7 +2,7 @@
 layout: content
 title: Resources
 permalink: /resources/
-image: cupcakes-fancy-white-pink.jpg
+image: pretty-tools-1449015-pxh.jpg
 ---
 
 ### BabylonJS Resources
