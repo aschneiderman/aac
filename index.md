@@ -1,6 +1,6 @@
 ---
-layout: content
-title: 'Learn to Code with BabylonJS'
+layout: home
+title: 'Welcome to Playful Coding!'
 image: 'hand-paid-cans-36464-pxh2.jpg'
 ---
 
@@ -12,7 +12,7 @@ These days, computers and phones can do a lot of cool stuff, but a lot of intro 
 There are some sites, like code.org, that take full advantage of the cool things you can do today. But unfortunately, these courses are designed
 so that only a handful of developers can modify them. If you are a teacher and you want to come up with your own version that better fits your students and your teaching style, you're out of luck.
 
-Learn to Code with BabylonJS  is a Proof of Concept to show what it might look like to teach beginning coding    by using some of the cool things you can do with the open source [BabylonJS](https://www.babylonjs.com/) library. 
+Playful Coding  is a proof of concept to show what it might look like to teach beginning coding    by using some of the cool things you can do with the open source [BabylonJS](https://www.babylonjs.com/) library. 
 
 Let's [Get Started](./lessons/)!
 

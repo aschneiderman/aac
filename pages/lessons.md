@@ -14,23 +14,20 @@ image: paint-brushes-1366198-pxh.jpg
 
 - explain goals, what you get to do & learn
 
-###  1) [Simple Text](../pages/lessons/basic-postcard/text-hello/index.html)
-- Simple commands: simpleSetup, simpleScene, simpleTextBlock (briefly explain setup, scene)[fix text blocks so pivot from front end, not back]
-- Welcome to 3D: putting stuff on your postcard at X,y,z 3D location
-- Adding more text blocks
-- Intro to debugging & taking tiny steps, aka iteration 
+### Your First Program
+Time to get started!
+
+- [Simple Text](../pages/lessons/0010-simple-postcard/text-hello.html)
+- [Simple Postcard](../pages/lessons/0010-simple-postcard/text-postcard.html)
 
 
-###  2) Paramters/Options and Documenatation
-- Options aka parameters
-  - 360 background pix
-  - text options, reading simple documentation  (if your text gets cut off, play w height and length of text block)
-- Now it's your turn: pick one of the following 360 background images, write some text to someone
+
 
 
 
 Variables:
 - manually space spheres (maybe with the woods background?)
+- NOTE: need to explain why you can't just use the word ccolor, you need to use special color
 - space them by adding to a variable, x
 - space them the same amount apart, by using a variable
 
