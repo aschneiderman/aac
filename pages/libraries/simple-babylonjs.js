@@ -79,17 +79,30 @@ function simpleTextBlock(text, options, scene) {
 
 
 
+// Now what I need to do is add the option for image, which then does this:
+// var grass1 = new BABYLON.StandardMaterial("grass1", scene);
+// grass1.emissiveTexture = new BABYLON.Texture("textures/grass.png", scene);
+//And also make sure that EmissiveTexture is what I want
 
 
-function simpleSphere (name, x, y, z, options, scene) {
+function simpleSphere (name, options, scene) {
 // simpleSphere: helper function to hide the details of creating a sphere and the material that covers it
+    var x = (options.x === undefined) ?   0     : options.x;
+    var y = (options.y === undefined) ?   0     : options.y;
+    var z = (options.z === undefined) ?   0     : options.z;
     var diameter =  (options.diameter === undefined) ?      1                               : options.diameter;
     var color =     (options.color === undefined) ?         new BABYLON.Color3.Black()      : options.color;
     var ball = BABYLON.MeshBuilder.CreateSphere(name, {diameter: diameter}, scene);
     ball.position = new BABYLON.Vector3(x, y, z); 
-    var myMaterial = new BABYLON.StandardMaterial("myMaterial", scene);
-    myMaterial.diffuseColor =  color;
-    ball.material = myMaterial;
+
+    // If they provided a material, use that; otherwise, create a material using the color they specified
+    if (options.material) {
+        ball.material = options.material;
+    } else {
+        var myMaterial = new BABYLON.StandardMaterial("myMaterial", scene);
+        myMaterial.diffuseColor =  color;
+        ball.material = myMaterial;
+    };
     return ball;
 };
 
