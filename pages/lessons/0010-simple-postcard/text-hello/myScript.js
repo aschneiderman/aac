@@ -3,7 +3,7 @@ var setUp = simpleSetUp();
 createScene = function (setUp) {
     var scene = simpleScene(setUp);
 
-    simpleTextBlock('Hi There!', {color: "green"}, scene);
+    simpleTextBlock('Hi There!', {color: "red"}, scene);
     
     return scene;
 };
