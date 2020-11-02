@@ -124,25 +124,24 @@ Animating blocks
 
 ## Functions & Reusing Code
 
-Not sure what example to try. A couple of possibilities:
-- Sprite animation: creating 2 functions: one that animates the spritesheet's images that cover jumping, another one that covers falling down?
-- Functions for creating a campfire scene?
-- Physics engine with balls?
-- Infinite loader example?
-- Ribbons or Render Line?
-- Particles -- e.g., the "click boom" example in the BabylonJS documentation/examples?
-
-NOTES
-- Critically important: teach this early so students start to see that they can be tool creators and not just with users
-- Also teach this early since reusability & breaking code into chunks are key to writing good code
-- Optional parameters with default values? The code is easy but looks a bit weird, so may want to hold off till later
-- How to write code you can read 6 months from now 
-- Why & how to use comments 
-
-- View the end result on [GitHub](../pages/lessons/0010-variables/numbers/index.html) or Glitch
+Let's start with animatinng a "Sprite" of a cowboy:
+- View the end result on [GitHub](../pages/lessons/0050-functions/cowboy-motions/index.html) or Glitch
 - View the code on GitHub (HTML, JavaScript) or play with it on Glitch
 
-[Instructor's Notes](../pages/lessons/0010-simple-postcard/text-postcard-notes.html)
+Let's create a function of him walking:
+- View the end result on [GitHub](../pages/lessons/0050-functions/cowboy-walking/index.html) or Glitch
+- View the code on GitHub (HTML, JavaScript) or play with it on Glitch
+
+Let's create a function of him walks/runs where you can set his speed:
+- View the end result on [GitHub](../pages/lessons/0050-functions/cowboy-walking-speed/index.html) or Glitch
+- View the code on GitHub (HTML, JavaScript) or play with it on Glitch
+
+{NOTE: for real curriculum, you'd want at least one more example of using functions for reusability or for encapsulating complexity -- 
+e.g., creating several functions that would let you mix-and-match the components of a complex picture }
+
+
+
+[Instructor's Notes](../pages/lessons/0050-functions/function-notes.html)
 
 <hr/>
 
@@ -179,3 +178,12 @@ Adding in text variables to create a "report"
 
 
 
+<hr/>
+
+{ Other fun things to play with that I might use in lessons:
+- Functions for creating a campfire scene?
+- Physics engine with balls?
+- Infinite loader example?
+- Ribbons or Render Line?
+- Particles -- e.g., the "click boom" example in the BabylonJS documentation/examples?
+}
