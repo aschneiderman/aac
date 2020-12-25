@@ -7,12 +7,15 @@ description:  Description of this site
 navigation_links:
   - name: About
     link: 'about/'
-  - name: Lessons
+  # - name: Strategy
+    # link: 'strategy/'
+  - name: Creative DataViz
+    link: 'dataviz/'
+
+  - name: Intro to Coding
     link: 'lessons/'
-  - name: Strategy
-    link: 'strategy/'
-  - name: Resources
-    link: 'resources/'
+  # - name: Resources
+    # link: 'resources/'
   - name: Makers All
     link: 'https://makersall.org/'
 

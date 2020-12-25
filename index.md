@@ -7,6 +7,13 @@ image: 'hand-paid-cans-36464-pxh2.jpg'
 
 *NOTE: this site isn't yet ready for public use -- right now it's just a place to experiment*
 
+### Punch List
+
+- Create DataViz page, including BabylonJS, Processing,, links to GSAP
+- Convert Lessons into 2 pages: examples of lessons that work, syllabus ideas
+- Create Intro to Coding page
+- Play with old BabylonJS DataViz examples, get a few to work
+
 These days, computers and phones can do a lot of cool stuff, but a lot of intro to coding classes still look like it's 1970.
 
 There are some sites, like code.org, that take full advantage of the cool things you can do today. But unfortunately, these courses are designed
