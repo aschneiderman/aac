@@ -1,12 +1,7 @@
 // https://editor.p5js.org/niccab/sketches/Fci2SMXje
 
-/*
-
-Your example question we could submit for homework involved the arc function and its parameters. I thought that this would be a good function to explore.
-
-For this week's assignment, I wanted to replicate a painting from one of my favorite painters, Hilma Af Klint. The title of the painting is Svanen. Here is a reference: https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_Svanen.jpg
-
-I thought that using the arc function would be much simpler to use. I wanted to use only arcs, but I chose to use circles as the base layers and arcs to overlap the circles.
+/* A clone of niccab's replication of a painting by the artist Hilma Af Klint, called Svanen. 
+https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_Svanen.jpg
 
 */
 

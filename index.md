@@ -7,12 +7,7 @@ image: 'hand-paid-cans-36464-pxh2.jpg'
 
 *NOTE: this site isn't yet ready for public use -- right now it's just a place to experiment*
 
-### Punch List
 
-- Create DataViz page, including BabylonJS, Processing,, links to GSAP
-- Convert Lessons into 2 pages: examples of lessons that work, syllabus ideas
-- Create Intro to Coding page
-- Play with old BabylonJS DataViz examples, get a few to work
 
 These days, computers and phones can do a lot of cool stuff, but a lot of intro to coding classes still look like it's 1970.
 
@@ -37,3 +32,12 @@ Let's [Get Started](./lessons/)!
   - Eventually, design so could generate versions to be taught online -- eg, make it easy to build in GitHub and push new/updated lessons to [Glitch](https://glitch.com) -- or offline if little Net access
   - Design for Student audience: high school, young adults, adults, organization's staff
   - Possible followup project: creative data viz  }
+
+
+
+### Punch List
+
+- Convert Lessons into 2 pages: examples of lessons that work, syllabus ideas
+- Create Intro to Coding page
+- Play with old BabylonJS DataViz examples, get a few to work
+
