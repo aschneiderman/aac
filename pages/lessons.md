@@ -23,7 +23,7 @@ In this lesson, we'll take our first steps in learning how to code.
 ### 1) Create the Simplest Possible Program using BabylonJS
 Create your first script: some text in 3D!
 
-- View the end result on [GitHub](../pages/lessons/0010-simple-postcard/text-hello/index.html) or Glitch
+- View the end result on [GitHub](../pages/bjs-lessons/0010-simple-postcard/text-hello/index.html) or Glitch
 - View the code on GitHub (HTML, JavaScript) or play with it on Glitch
 
 
@@ -31,11 +31,11 @@ Create your first script: some text in 3D!
 
 Create a simple digital postcard that you can mail to your friends
 
-- View the end result on [GitHub](../pages/lessons/0010-simple-postcard/text-postcard/index.html) or Glitch
+- View the end result on [GitHub](../pages/bjs-lessons/0010-simple-postcard/text-postcard/index.html) or Glitch
 - View the code on GitHub (HTML, JavaScript) or play with it on Glitch
 
 
-[Instructor's Notes](../pages/lessons/0010-simple-postcard/text-postcard-notes.html)
+[Instructor's Notes](../pages/bjs-lessons/0010-simple-postcard/text-postcard-notes.html)
 
 <hr/>
 
@@ -52,13 +52,13 @@ In this lesson, we will learn how and why you want to use variables.
 - Do a simple calculation and display the results
 }
 
-- View the end result on [GitHub](../pages/lessons/0010-variables/numbers/index.html) or Glitch
+- View the end result on [GitHub](../pages/bjs-lessons/0010-variables/numbers/index.html) or Glitch
 - View the code on GitHub (HTML, JavaScript) or play with it on Glitch
 
 
 ### 2) Strings
 
-- View the end result on [GitHub](../pages/lessons/0010-variables/numbers/index.html) or Glitch
+- View the end result on [GitHub](../pages/bjs-lessons/0010-variables/numbers/index.html) or Glitch
 - View the code on GitHub (HTML, JavaScript) or play with it on Glitch
 
 ### 3) Using Variables to Hold Other Types of Objects
@@ -67,7 +67,7 @@ In this lesson, we will learn how and why you want to use variables.
 { Sample code for using mmaterials:
 https://www.babylonjs-playground.com/#20OAV9#15}
 
-- View the end result on [GitHub](../pages/lessons/0020-variables/other-objects/index.html) or Glitch
+- View the end result on [GitHub](../pages/bjs-lessons/0020-variables/other-objects/index.html) or Glitch
 - View the code on GitHub (HTML, JavaScript) or play with it on Glitch
 
 ### 4) Using Variables for Calculations (?)
@@ -81,10 +81,10 @@ https://www.babylonjs-playground.com/#20OAV9#15}
 { NOTE: need to explain why it is that with a sphere you need to use an RGB color, e.g., simpleColor.Yellow, and not just the word "yellow" the way you can with simpleTextBlock. Don't need to get into the nitty-gritty -- textblock as part of the GUI, which operates differently -- just need to flag it as a potential issue. Alternatively, redo simpleTextBlock so it requires an RGB color. Or dodge the issue by using a material?}
 
 
-- View the end result on [GitHub](../pages/lessons/0010-variables/numbers/index.html) or Glitch
+- View the end result on [GitHub](../pages/bjs-lessons/0010-variables/numbers/index.html) or Glitch
 - View the code on GitHub (HTML, JavaScript) or play with it on Glitch
 
-[Instructor's Notes](../pages/lessons/0010-simple-postcard/text-postcard-notes.html)
+[Instructor's Notes](../pages/bjs-lessons/0010-simple-postcard/text-postcard-notes.html)
 
 <hr/>
 
@@ -98,10 +98,10 @@ https://www.babylonjs-playground.com/#20OAV9#15}
 for (let counter = 0; counter <= 3; counter++)
 }
 
-- View the end result on [GitHub](../pages/lessons/0010-variables/numbers/index.html) or Glitch
+- View the end result on [GitHub](../pages/bjs-lessons/0010-variables/numbers/index.html) or Glitch
 - View the code on GitHub (HTML, JavaScript) or play with it on Glitch
 
-[Instructor's Notes](../pages/lessons/0010-simple-postcard/text-postcard-notes.html)
+[Instructor's Notes](../pages/bjs-lessons/0010-simple-postcard/text-postcard-notes.html)
 
 <hr/>
 
@@ -113,10 +113,10 @@ for (let counter = 0; counter <= 3; counter++)
 Animating blocks
 
 
-- View the end result on [GitHub](../pages/lessons/0010-variables/numbers/index.html) or Glitch
+- View the end result on [GitHub](../pages/bjs-lessons/0010-variables/numbers/index.html) or Glitch
 - View the code on GitHub (HTML, JavaScript) or play with it on Glitch
 
-[Instructor's Notes](../pages/lessons/0010-simple-postcard/text-postcard-notes.html)
+[Instructor's Notes](../pages/bjs-lessons/0010-simple-postcard/text-postcard-notes.html)
 
 <hr/>
 
@@ -125,15 +125,15 @@ Animating blocks
 ## Functions & Reusing Code
 
 Let's start with animatinng a "Sprite" of a cowboy:
-- View the end result on [GitHub](../pages/lessons/0050-functions/cowboy-motions/index.html) or Glitch
+- View the end result on [GitHub](../pages/bjs-lessons/0050-functions/cowboy-motions/index.html) or Glitch
 - View the code on GitHub (HTML, JavaScript) or play with it on Glitch
 
 Let's create a function of him walking:
-- View the end result on [GitHub](../pages/lessons/0050-functions/cowboy-walking/index.html) or Glitch
+- View the end result on [GitHub](../pages/bjs-lessons/0050-functions/cowboy-walking/index.html) or Glitch
 - View the code on GitHub (HTML, JavaScript) or play with it on Glitch
 
 Let's create a function of him walks/runs where you can set his speed:
-- View the end result on [GitHub](../pages/lessons/0050-functions/cowboy-walking-speed/index.html) or Glitch
+- View the end result on [GitHub](../pages/bjs-lessons/0050-functions/cowboy-walking-speed/index.html) or Glitch
 - View the code on GitHub (HTML, JavaScript) or play with it on Glitch
 
 {NOTE: for real curriculum, you'd want at least one more example of using functions for reusability or for encapsulating complexity -- 
@@ -141,7 +141,7 @@ e.g., creating several functions that would let you mix-and-match the components
 
 
 
-[Instructor's Notes](../pages/lessons/0050-functions/function-notes.html)
+[Instructor's Notes](../pages/bjs-lessons/0050-functions/function-notes.html)
 
 <hr/>
 
@@ -171,10 +171,10 @@ Adding in text variables to create a "report"
 }
 
 
-- View the end result on [GitHub](../pages/lessons/0010-variables/numbers/index.html) or Glitch
+- View the end result on [GitHub](../pages/bjs-lessons/0010-variables/numbers/index.html) or Glitch
 - View the code on GitHub (HTML, JavaScript) or play with it on Glitch
 
-[Instructor's Notes](../pages/lessons/0010-simple-postcard/text-postcard-notes.html)
+[Instructor's Notes](../pages/bjs-lessons/0010-simple-postcard/text-postcard-notes.html)
 
 
 

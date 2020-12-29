@@ -8,33 +8,59 @@ image: glass-spheres-970093-pxh.jpg
 
 It's pretty straightforward to give users a nice user interface for creating standard data visualizations. But what if you want to go beyond that? Creative Data Visualizations is a series of [Data Chefs]( https://datachefs.org/)' experiments to see if we can incrementally teach tiny bits of coding to folks who aren't developers.
 
-## Current Experiment: BabylonJS
+## Recent Experiments
 
-BabylonJS is a powerful JavaScript library for creating WebVR. It can be a bit intimidating to get started if you don't have any programming background. So, we've been experimenting with creating a library that hides some of the trickier stuff.
-
-<p> The following are a few simple data visualization experiments. Most of them don't follow dataviz best practices, and they need work to make them prettier. The purpose of these examples is to rough out what's involved in doing a data visualization using BabylonJS. </p>
-
-<p> NOTE: something recently changed in the BabylonJS library that's causing any example that loads an asset to fail -- I'll figure this out when I have the time.</p>
-
-<ul>
-<li> Simple visualization using data: <a href="../pages/bjs-viz/goals/index.html">Goals</a></li>
-<li> Animation:  <a href="dataviz/engagement/index.html">Member engagement over time</a></li>
-<li> Animation:  <a href="dataviz/moores-law/index.html">Moore's Law</a></li>
-<li> Work in progress: 3D Graphic Objects:  <a href="dataviz/sandwich/index.html">Calories in a sandwich</a></li>
-</ul>
-
-
-## Other Potential Frameworks/Tools
 
 ### p5.js
 
 p5.js is a web-based JavaScript version of Processing.
 
-- A really simple [first project](../pages/p5js/first-project/index.html) ([JavaScript code](https://github.com/makersall/playful-coding/blob/main/pages/p5js/first-project/sketch.js)
-- [Klint](../pages/p5js/klint/index.html), a clone of  [niccab](https://editor.p5js.org/niccab/sketches)'s replication of a Klint painting, ?to give you a feel for what a relatively small number of commands can do (see the [JavaScript code](https://github.com/makersall/playful-coding/blob/main/pages/p5js/klint/sketch.js))
+- A really simple [first project](../pages/p5js/first-project/index.html) ([JavaScript code](https://github.com/makersall/playful-coding/blob/main/pages/p5js/first-project/sketch.js))
+- [Klint](../pages/p5js/klint/index.html), a clone of  [niccab](https://editor.p5js.org/niccab/sketches)'s replication of a Klint painting, to give you a feel for what a relatively small number of Processing commands can do ([JavaScript code](https://github.com/makersall/playful-coding/blob/main/pages/p5js/klint/sketch.js))
+  
+  
+Processing has a truly amazing set of libraries, including:
+
+-  a Nice [GUI library](https://github.com/bitcraftlab/p5.gui) — some really fun examples
+- a better [animation framework](https://www.npmjs.com/package/p5.createloop)
+- a [plotting library](https://github.com/jagracar/grafica.js), which also allows you to do lots of cool animations
+- a library that lets you create shapes with a [Sketchy](https://github.com/generative-light/p5.scribble.js) look
+- a crazy fun [sprite library](http://molleindustria.github.io/p5.play/)
+- a nice [particle library](https://github.com/bobcgausa/cook-js)
+
+You might also want to check out these [examples](http://jsfiddle.net/user/jagracar/fiddles/) as well as a series of experiments of doing [letters as particles](http://jsfiddle.net/bobcook/mph714p8/)
+
+<!-- For my little experiments: [Stars](https://p5js.org/examples/form-star.html) and [Hearts](https://github.com/gaba5/p5.shape.js) -->
+
+{ Also add in:
 - Links to examples
 - Links to terrific YouTube video tutorial series on Coding Train
+}
 
+### BabylonJS
+
+BabylonJS is a powerful JavaScript library for creating WebVR. It can be a bit intimidating to get started if you don't have any programming background. So, we've been experimenting with creating a library that hides some of the trickier stuff.
+
+<p> The following are a few simple data visualization experiments. Most of them don't follow dataviz best practices, and they need work to make them prettier. The purpose of these examples is to rough out what's involved in doing a data visualization using BabylonJS. </p>
+
+
+<ul>
+<li> Simple visualization using data: <a href="../pages/bjs-viz/goals/index.html">Goals</a></li>
+</ul>
+
+{ NOTE: these were working; need to play with them to figure out why they aren't anymore
+
+<p> NOTE: something recently changed in the BabylonJS library that may be causing some examples that load an asset to fail -- I'll figure this out when I have the time.</p>
+
+
+<ul>
+<li> Animation:  <a href="../pages/bjs-viz/moores-law/index.html">Moore's Law</a></li>
+<li> Animation:  <a href="dataviz/engagement/index.html">Member engagement over time</a></li>
+<li> Work in progress: 3D Graphic Objects:  <a href="dataviz/sandwich/index.html">Calories in a sandwich</a></li>
+</ul>
+}
+
+## Other Potential Frameworks/Tools
 
 
 ### D3.js
