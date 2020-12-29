@@ -28,7 +28,8 @@ Processing has a truly amazing set of libraries, including:
 - a crazy fun [sprite library](http://molleindustria.github.io/p5.play/)
 - a nice [particle library](https://github.com/bobcgausa/cook-js)
 
-You might also want to check out these [examples](http://jsfiddle.net/user/jagracar/fiddles/) as well as a series of experiments of doing [letters as particles](http://jsfiddle.net/bobcook/mph714p8/)
+You might also want to check out these [examples](http://jsfiddle.net/user/jagracar/fiddles/) as well as a series of experiments of doing [letters as particles](http://jsfiddle.net/bobcook/mph714p8/),
+plus some fabulous examples from a [36 day challenge](https://36xp5.site). 
 
 <!-- For my little experiments: [Stars](https://p5js.org/examples/form-star.html) and [Hearts](https://github.com/gaba5/p5.shape.js) -->
 
