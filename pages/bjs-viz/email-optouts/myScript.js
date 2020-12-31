@@ -28,7 +28,7 @@ var createScene = function () {
     function setUpScene () {
         for (let i = 0; i < numPeople; i++) {
             People[i] = simpleSphere('i ' + i, -30 + (Math.random() * peopleAreaWidth), 
-                        10 + Math.random() * peopleAreaHeight, 0);
+                        10 + Math.random() * peopleAreaHeight, 0, {});
         }
     };
     

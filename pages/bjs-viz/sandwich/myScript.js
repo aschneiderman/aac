@@ -91,16 +91,16 @@ var delayCreateScene = function () {
         };
 
         // add 2 balls as height markers
-        var ball = BABYLON.MeshBuilder.CreateSphere(name, {diameter: 0.01}, scene);
-        ball.position = new BABYLON.Vector3(-0.2, 0, 0.27); 
-        var myMaterial = new BABYLON.StandardMaterial("myMaterial", scene);
-        myMaterial.diffuseColor =  new BABYLON.Color3.Teal() ;
-        ball.material = myMaterial;
-        var ball2 = BABYLON.MeshBuilder.CreateSphere(name, {diameter: 0.03}, scene);
-        ball2.position = new BABYLON.Vector3(-0.2, 0.5, 0.27); 
-        var ball2Material = new BABYLON.StandardMaterial("myMaterial", scene);
-        ball2Material.diffuseColor =  new BABYLON.Color3.Purple() ;
-        ball2.material = ball2Material;
+        // var ball = BABYLON.MeshBuilder.CreateSphere(name, {diameter: 0.01}, scene);
+        // ball.position = new BABYLON.Vector3(-0.2, 0, 0.27); 
+        // var myMaterial = new BABYLON.StandardMaterial("myMaterial", scene);
+        // myMaterial.diffuseColor =  new BABYLON.Color3.Teal() ;
+        // ball.material = myMaterial;
+        // var ball2 = BABYLON.MeshBuilder.CreateSphere(name, {diameter: 0.03}, scene);
+        // ball2.position = new BABYLON.Vector3(-0.2, 0.5, 0.27); 
+        // var ball2Material = new BABYLON.StandardMaterial("myMaterial", scene);
+        // ball2Material.diffuseColor =  new BABYLON.Color3.Purple() ;
+        // ball2.material = ball2Material;
 
     });
 
