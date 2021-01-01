@@ -8,31 +8,21 @@ image: glass-spheres-970093-pxh.jpg
 
 It's pretty straightforward to give users a nice user interface for creating standard data visualizations. But what if you want to go beyond that? Creative Data Visualizations is a series of [Data Chefs]( https://datachefs.org/)' experiments to see if we can incrementally teach tiny bits of coding to folks who aren't developers.
 
-## Recent Experiments
+## p5.js
 
-### BabylonJS
+[p5.js](https://p5js.org/) is a fabulous web-based JavaScript version of [Processing](https://processing.org/), "a language for learning how to code within the context of the visual arts."
 
-BabylonJS is a powerful JavaScript library for creating WebVR. It can be a bit intimidating to get started if you don't have any programming background. So, we've been experimenting with creating a library that hides some of the trickier stuff.
+My first DataViz experiments:
 
-<p> The following are a few simple data visualization experiments. Most of them don't follow dataviz best practices, and they need work to make them prettier. The purpose of these examples is to rough out what's involved in doing a data visualization using BabylonJS. </p>
-
-<ul>
-<li> Simple visualization using data: <a href="../pages/bjs-viz/goals/index.html">Goals</a></li>
-<li> Animation:  <a href="../pages/bjs-viz/moores-law/index.html">Moore's Law</a></li>
-<li> Animation:  <a href="../pages/bjs-viz/red-airplane.html"> Airplane</a>: Proof of concept where a value is visualized based on how fast it animation is going</li>
-<li> Animation:  <a href="../pages/bjs-viz/engagement/index.html">Member engagement over time</a>: although it doesn't fully work, gives you a sense of what you could do using animation of lots of objects</li>
-<li> Work in progress: <a href="../pages/bjs-viz/sandwich/index.html">Calories in a burger</a>: Demonstrating how you could create a data visualization where the data was represented by different layers in a burger</li>
-<!-- <li> Work in progress: <a href="../pages/bjs-viz/email-optouts/index.html"> Email opt outs</a> -->
-</ul>
-
-### p5.js
-
-p5.js is a web-based JavaScript version of Processing.
-
-- The [simplest first program]](../pages/p5js/first-project/index.html); here's the [JavaScript](https://github.com/makersall/playful-coding/blob/main/pages/p5js/first-project/sketch.js)
+<!-- - The [simplest first program]](../pages/p5js/first-project/index.html); here's the [JavaScript](https://github.com/makersall/playful-coding/blob/main/pages/p5js/first-project/sketch.js) -->
+ - Using [flowers](../pages/p5js/flowers1/index.html) for a progress report
+-  My  [playground](../pages/p5js/experiments.html), for taking baby steps to start teaching myself p5
+  
+What p5.js can do:  
 - [Klint](../pages/p5js/klint/index.html), a clone of  [niccab](https://editor.p5js.org/niccab/sketches)'s replication of a Klint painting, to give you a feel for what a relatively small number of Processing commands can do ([JavaScript code](https://github.com/makersall/playful-coding/blob/main/pages/p5js/klint/sketch.js))
--   My very first [experiments](../pages/p5js/experiments.html) -- baby steps to start teaching myself p5
-- Processing comes with a terrific set of [Examples](https://p5js.org/examples/) that should give you an idea of what you can do
+- Processing comes with a terrific set of [examples](https://p5js.org/examples/) that should give you an idea of what you can do; also check out the [reference](https://p5js.org/reference/) page for examples of how to use specific commands
+- [Examples I've grabbed](../pages/p5js/examples.html) from around the web
+
 
 To learn Processing, there are 2 ways to go:
 - Use p5.js's [intro tutorials](https://p5js.org/learn/)
@@ -47,10 +37,29 @@ Processing has a truly amazing set of libraries, including:
 - a crazy fun [sprite library](http://molleindustria.github.io/p5.play/)
 - a nice [particle library](https://github.com/bobcgausa/cook-js)
 
+
 You might also want to check out these [examples](http://jsfiddle.net/user/jagracar/fiddles/) as well as a series of experiments of doing [letters as particles](http://jsfiddle.net/bobcook/mph714p8/),
 plus some fabulous examples from a [36 day challenge](https://36xp5.site). 
 
-<!-- For my little experiments: [Stars](https://p5js.org/examples/form-star.html) and [Hearts](https://github.com/gaba5/p5.shape.js) -->
+
+
+
+## BabylonJS
+
+BabylonJS is a powerful JavaScript library for creating WebVR. It can be a bit intimidating to get started if you don't have any programming background. So, we've been experimenting with creating a library that hides some of the trickier stuff.
+
+<p> The following are a few simple data visualization experiments. Most of them don't follow dataviz best practices, and they need work to make them prettier. The purpose of these examples is to rough out what's involved in doing a data visualization using BabylonJS. </p>
+
+<ul>
+<li> Simple visualization using data: <a href="../pages/bjs-viz/goals/index.html">Goals</a></li>
+<li> Animation:  <a href="../pages/bjs-viz/moores-law/index.html">Moore's Law</a></li>
+<li> Animation:  <a href="../pages/bjs-viz/red-airplane.html"> Airplane</a>: Proof of concept where a value is visualized based on how fast it animation is going</li>
+<li> Animation:  <a href="../pages/bjs-viz/engagement/index.html">Member engagement over time</a>: although it doesn't fully work, gives you a sense of what you could do using animation of lots of objects</li>
+<li> Work in progress: <a href="../pages/bjs-viz/sandwich/index.html">Calories in a burger</a>: Demonstrating how you could create a data visualization where the data was represented by different layers in a burger</li>
+<!-- <li> Work in progress: <a href="../pages/bjs-viz/email-optouts/index.html"> Email opt outs</a> -->
+</ul>
+
+
 
 
 
@@ -60,7 +69,7 @@ plus some fabulous examples from a [36 day challenge](https://36xp5.site).
 ### D3.js
 
 We've done a bunch of work with D3.js, including teaching [A Taste of D3](http://aschneiderman.github.io/a-taste-of-d3/) at [ASHA](https://www.asha.org/) and creating
-[D3 Sandwiches](http://aschneiderman.github.io/d3_sandwich/), a pilot project toexplore teaching d3 by interactively looking at the layers of a d3 "sandwich." Ultimately we decided to stop; D3.js is powerful but it's just too difficult to teach to beginners.
+[D3 Sandwiches](http://aschneiderman.github.io/d3_sandwich/), a pilot project toexplore teaching d3 by interactively looking at the layers of a d3 "sandwich." Ultimately we decided to stop; D3.js is powerful but it's just too painful to teach to beginners.
 
 
 ### GSAP

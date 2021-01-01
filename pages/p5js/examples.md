@@ -1,0 +1,42 @@
+---
+layout: content
+title: A Few P5 Examples From around the Web
+image: brushes-wood-1323248-pxh.jpg
+---
+
+
+Here are a few examples of what p5 can do. For more examples, see p5's official  [examples](https://p5js.org/examples/) page.
+
+
+
+
+
+https://musingswithcode.studio/generative-design-workshop/
+
+https://p5js.org/examples/advanced-data-load-saved-table.html
+
+
+[Many yellow flowers](https://editor.p5js.org/rhymeandreason/sketches/NI74eacDH)
+
+
+
+https://editor.p5js.org/son/sketches/SkJJxG2Cm
+
+https://editor.p5js.org/KevinWorkman/sketches/r17Ywmivm
+
+[Gardening with flowers](https://editor.p5js.org/IreneLi/sketches/RPWvpx9C-)
+
+https://editor.p5js.org/monicawen/sketches/B1pyfZ114
+
+
+https://editor.p5js.org/niccab/sketches/Fci2SMXje
+
+https://www.openprocessing.org/class/57891/
+
+https://lab.arts.ac.uk/books/creative-coding/export/html
+
+https://editor.p5js.org/p5user1/sketches/CtI1u2Xy8
+
+https://36xp5.site
+
+<!-- For my little experiments: [Stars](https://p5js.org/examples/form-star.html) and [Hearts](https://github.com/gaba5/p5.shape.js) -->
