@@ -8,10 +8,21 @@ image: brushes-wood-1323248-pxh.jpg
 Here are a few examples of what p5 can do. For more examples, see p5's official  [examples](https://p5js.org/examples/) page.
 
 
-
-
-
+From 
 https://musingswithcode.studio/generative-design-workshop/
+
+
+https://editor.p5js.org/ajithranka/sketches/RlsWKxth
+
+https://editor.p5js.org/ajithranka/sketches/4RIeKOf8
+
+———————
+
+https://www.openprocessing.org/sketch/609413
+
+
+
+
 
 https://p5js.org/examples/advanced-data-load-saved-table.html
 

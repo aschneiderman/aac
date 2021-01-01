@@ -2,21 +2,22 @@
 layout: content
 title: Creative Data Visualizations
 permalink: /dataviz/
-
-image: glass-spheres-970093-pxh.jpg
+image: cookies-dataviz.jpg
 ---
 
-It's pretty straightforward to give users a nice user interface for creating standard data visualizations. But what if you want to go beyond that? Creative Data Visualizations is a series of [Data Chefs]( https://datachefs.org/)' experiments to see if we can incrementally teach tiny bits of coding to folks who aren't developers.
+It's pretty straightforward to give users a nice user interface for creating standard data visualizations. But what if you want to go beyond that? Creative Data Visualizations is a series of [Data Chefs]( https://datachefs.org/)' experiments to see if we can incrementally teach coding to folks who aren't developers.
 
 ## p5.js
 
-[p5.js](https://p5js.org/) is a fabulous web-based JavaScript version of [Processing](https://processing.org/), "a language for learning how to code within the context of the visual arts."
+[p5.js](https://p5js.org/) is a web-based JavaScript version of [Processing](https://processing.org/), "a language for learning how to code within the context of the visual arts."
 
 My first DataViz experiments:
 
 <!-- - The [simplest first program]](../pages/p5js/first-project/index.html); here's the [JavaScript](https://github.com/makersall/playful-coding/blob/main/pages/p5js/first-project/sketch.js) -->
  - Using [flowers](../pages/p5js/flowers1/index.html) for a progress report
 -  My  [playground](../pages/p5js/experiments.html), for taking baby steps to start teaching myself p5
+  
+_{NOTE: put copies of my DataViz experiments on the p5.js online editor/website}_
   
 What p5.js can do:  
 - [Klint](../pages/p5js/klint/index.html), a clone of  [niccab](https://editor.p5js.org/niccab/sketches)'s replication of a Klint painting, to give you a feel for what a relatively small number of Processing commands can do ([JavaScript code](https://github.com/makersall/playful-coding/blob/main/pages/p5js/klint/sketch.js))
@@ -26,7 +27,7 @@ What p5.js can do:
 
 To learn Processing, there are 2 ways to go:
 - Use p5.js's [intro tutorials](https://p5js.org/learn/)
-- Use the fabulous YouTube videos [for beginners with no coding experience](https://thecodingtrain.com/beginners/p5js/), courtesy of Daniel Shiffman's [Coding Train](https://thecodingtrain.com/)
+- Use the YouTube videos [for beginners with no coding experience](https://thecodingtrain.com/beginners/p5js/), courtesy of Daniel Shiffman's [Coding Train](https://thecodingtrain.com/)
   
 Processing has a truly amazing set of libraries, including:
 
