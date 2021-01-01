@@ -1,13 +1,18 @@
 // flowers1: show progress report using flowers with more or less petals
 // NOTE:  this was built using code from  https://editor.p5js.org/rhymeandreason/sketches/NI74eacDH
 
-// Flower settings
-var xPadding = 150;   
+// Flower Visualization settings
+// NOTE: I'm using a bunch of variables to make it easier to understand how the code works
+var startX = 150;   
+var flowerSpacing = 200;  // Amount of spacing between each flower
+var flowerY = 200;
 var petalSize = 25;
 var stemHeight = 100;
 var petalStart = 20;
 var leafSize = 30;
 var leafWidth = leafSize/2
+var scoreY = 330;
+var nameY = 400;
 
 // The data 
 var goals = [
@@ -39,15 +44,15 @@ function draw() {
   // Create the flower and labels for each goal
   for (goal = 0; goal < goals.length; goal++) {
 
-    createFlower(xPadding + goal*200, 200, goals[goal].score);
+    createFlower(startX + goal * flowerSpacing, flowerY, goals[goal].score);
 
     // Label the name and score for the flower
     textAlign(CENTER);
     fill(51);
     textSize(32);
-    text(goals[goal].name,  xPadding + goal * 200, 400);
+    text(goals[goal].name,  startX + goal * flowerSpacing, nameY);
     textSize(12);
-    text(goals[goal].score, xPadding + goal * 200, 330);
+    text(goals[goal].score, startX + goal * flowerSpacing, scoreY);
   };
 
 };
