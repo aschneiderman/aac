@@ -56,6 +56,17 @@ function draw() {
 function createFlower(x, y, score) {
   // createFlower: creates a flower at a particular location with the number of petals depending on the score
 
+  //draw the flower's stem
+  stroke(45, 90, 90);
+  fill(45, 90, 90);
+  strokeWeight(3);
+  line(x, y, x, y + stemHeight);
+  
+  //draw the stem's 2 leaves
+  noStroke();
+  ellipse(x + leafWidth, y + stemHeight/2, leafSize, leafWidth);
+  ellipse(x - leafWidth, y + stemHeight/2, leafSize, leafWidth);
+
   //draw the flower's petals
   noStroke();
   fill(10, 100, 100);
@@ -70,15 +81,4 @@ function createFlower(x, y, score) {
   fill(17, 100 ,100);
   ellipse(x, y, petalSize, petalSize);
 
-  //draw the stem
-  stroke(45, 90, 90);
-  fill(45, 90, 90);
-  strokeWeight(3);
-  line(x, y, x, y + stemHeight);
-  
-  //draw the 2 leaves
-  noStroke();
-  ellipse(x + leafWidth, y + stemHeight/2, leafSize, leafWidth);
-  ellipse(x - leafWidth, y + stemHeight/2, leafSize, leafWidth);
-  
 };
