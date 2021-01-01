@@ -2,7 +2,7 @@
 // NOTE:  this was built using code from  https://editor.p5js.org/rhymeandreason/sketches/NI74eacDH
 
 // Flower Visualization settings
-// NOTE: I'm using a bunch of variables to make it easier to understand how the code works
+// NOTE: I'm using a bunch of variables to make it easier to understand what the code is doing
 var startX = 150;   
 var flowerSpacing = 200;  // Amount of spacing between each flower
 var flowerY = 200;
@@ -41,12 +41,12 @@ function draw() {
   textSize(36);
   text(quarter + " Status Report", 50, 60);
 
-  // Create the flower and labels for each goal
+  // For each goal, display the flower and labels 
   for (goal = 0; goal < goals.length; goal++) {
 
     createFlower(startX + goal * flowerSpacing, flowerY, goals[goal].score);
 
-    // Label the name and score for the flower
+    // Display the name and score 
     textAlign(CENTER);
     fill(51);
     textSize(32);
@@ -75,7 +75,7 @@ function createFlower(x, y, score) {
   //draw the flower's petals
   noStroke();
   fill(10, 100, 100);
-  var lastPetal = TWO_PI / maxScore * score;
+  var lastPetal = TWO_PI / maxScore * score;                 // Given the score, calculates how many petals the flower should have
   for (var theta = 0; theta < lastPetal; theta += PI/3){    // Fun with trigonometry!
     var petalX = petalStart * cos(theta) + x;
     var petalY = petalStart * sin(theta) + y;
