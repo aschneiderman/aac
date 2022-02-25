@@ -1,4 +1,4 @@
-title: 'Playful Coding'
+title: 'cDavid'
 author: Anders Schneiderman
 email: your-email@domain.com
 description:  Description of this site
@@ -7,15 +7,9 @@ description:  Description of this site
 navigation_links:
   - name: About
     link: 'about/'
-  # - name: Strategy
-    # link: 'strategy/'
-  - name: Creative DataViz
-    link: 'dataviz/'
-
-  - name: Intro to Coding
-    link: 'lessons/'
-  # - name: Resources
-    # link: 'resources/'
-  - name: Makers All
-    link: 'https://makersall.org/'
-
+  - name: Strategy
+    link: 'strategy/'
+  - name: Resources
+    link: 'resources/'
+  - name: Research
+    link: 'research/'
