@@ -2,7 +2,8 @@
 layout: content
 title: About 
 permalink: /about/
-image: brushes-wood-1323248-pxh.jpg
+image: water-paints-1057934-pxh.jpg
+
 ---
 
 

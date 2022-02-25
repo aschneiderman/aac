@@ -1,7 +1,7 @@
 ---
 layout: home
 title: 'Welcome To Our Communications Adventure!'
-image: 'hand-paid-cans-36464-pxh2.jpg'
+image: brushes-wood-1323248-pxh.jpg
 ---
 
 How do we all work together so David is able to more fully communicate what he thinks, needs, wants, desires, and dreams of?  
